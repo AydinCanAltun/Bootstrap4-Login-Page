@@ -1,0 +1,33 @@
+body
+{
+    background-image: url("../image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#loginFormDiv
+{
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background: #fff;
+}
+
+#registerFormDiv
+{
+    width: 0%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background: #fff;
+}
+
+.loginRegisterForm
+{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

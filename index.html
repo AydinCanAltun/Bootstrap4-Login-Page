@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Register</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+    
+    <div id="loginPage">
+        <div id="loginFormDiv">
+            <div class="container-fluid">
+                <form id="login" class="loginRegisterForm" action="">
+                    <h1 class="text-danger mb-5">Company Name</h1>
+                    <h2 class="mb-5">Login</h2>
+                    <div class="form-group">
+                        <label for="">E-Mail</label>
+                        <input type="text" name="email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" name="password" class="form-control">
+                    </div>
+                    <input type="hidden" name="login" value="1">
+                    <button id="loginUser" class="btn btn-danger btn-block">Login</button>
+                    <div class="text-center mt-2">
+                        <a id="registerFormBtn" class="text-muted" href="">Register</a>
+                    </div>
+                </form>
+        
+                
+                
+            </div>
+        </div>
+        
+        <div id="registerFormDiv" class="d-none">
+            <div class="contaier-fluid">
+                <form id="register" class="loginRegisterForm" action="">
+                    <h1 class="text-danger mb-5">Company Name</h1>
+                    <h2 class="mb-5">Register</h2>
+        
+                    <div class="form-group">
+                        <label for="">Name & Surname</label>
+                        <input type="text" name="fullName" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">E-Mail</label>
+                        <input type="text" name="email" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" name="password" class="form-control">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">Phone Number</label>
+                        <input type="text" name="phoneNumber" class="form-control">
+                    </div>
+
+                    <button id="registerUser" class="btn btn-danger btn-block mt-2">Register</button>
+                    <div class="text-center mt-2">
+                        <a id="loginFormBtn" class="text-muted" href="">Login</a>
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
